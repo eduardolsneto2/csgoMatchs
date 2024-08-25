@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B30453A72C7A5F77002A90E4 /* MatchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453A62C7A5F77002A90E4 /* MatchListView.swift */; };
+		B30453A92C7A5FBE002A90E4 /* MatchListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453A82C7A5FBE002A90E4 /* MatchListViewModel.swift */; };
+		B30453AC2C7A6480002A90E4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B30453AB2C7A6480002A90E4 /* Alamofire */; };
+		B30453AF2C7A66BE002A90E4 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453AE2C7A66BE002A90E4 /* APIClient.swift */; };
+		B30453B12C7A6712002A90E4 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453B02C7A6712002A90E4 /* APIRouter.swift */; };
+		B30453B32C7A67A2002A90E4 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453B22C7A67A2002A90E4 /* APIConstants.swift */; };
+		B30453B62C7A69EA002A90E4 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453B52C7A69EA002A90E4 /* Match.swift */; };
+		B30453B82C7A8A2C002A90E4 /* MatchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453B72C7A8A2C002A90E4 /* MatchCardView.swift */; };
+		B30453BA2C7A8A4C002A90E4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453B92C7A8A4C002A90E4 /* Constants.swift */; };
+		B30453BD2C7A8AA1002A90E4 /* DateFormatter+ScheduleFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453BC2C7A8AA1002A90E4 /* DateFormatter+ScheduleFormatter.swift */; };
+		B30453BF2C7A9298002A90E4 /* View+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453BE2C7A9298002A90E4 /* View+CornerRadius.swift */; };
+		B30453C12C7A932A002A90E4 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453C02C7A9329002A90E4 /* RoundedCorner.swift */; };
+		B30453C82C7A98EB002A90E4 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B30453C72C7A98E4002A90E4 /* Roboto-Regular.ttf */; };
+		B30453CA2C7A9A3C002A90E4 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453C92C7A9A3C002A90E4 /* Team.swift */; };
+		B30453CC2C7A9E13002A90E4 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453CB2C7A9E13002A90E4 /* ImageLoader.swift */; };
+		B30453CE2C7A9E32002A90E4 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453CD2C7A9E32002A90E4 /* AsyncImage.swift */; };
+		B30453D02C7AA98E002A90E4 /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453CF2C7AA98E002A90E4 /* League.swift */; };
+		B30453D22C7AAB9B002A90E4 /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453D12C7AAB9B002A90E4 /* Serie.swift */; };
+		B30550E32C7A1547005487D2 /* csgoMatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30550E22C7A1547005487D2 /* csgoMatchApp.swift */; };
+		B30550E72C7A1549005487D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30550E62C7A1549005487D2 /* Assets.xcassets */; };
+		B30550F42C7A1549005487D2 /* csgoMatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30550F32C7A1549005487D2 /* csgoMatchTests.swift */; };
+		B30550FE2C7A1549005487D2 /* csgoMatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30550FD2C7A1549005487D2 /* csgoMatchUITests.swift */; };
+		B30551002C7A1549005487D2 /* csgoMatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30550FF2C7A1549005487D2 /* csgoMatchUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B30550F02C7A1549005487D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B30550D72C7A1547005487D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B30550DE2C7A1547005487D2;
+			remoteInfo = csgoMatch;
+		};
+		B30550FA2C7A1549005487D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B30550D72C7A1547005487D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B30550DE2C7A1547005487D2;
+			remoteInfo = csgoMatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B30453A62C7A5F77002A90E4 /* MatchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchListView.swift; sourceTree = "<group>"; };
+		B30453A82C7A5FBE002A90E4 /* MatchListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchListViewModel.swift; sourceTree = "<group>"; };
+		B30453AE2C7A66BE002A90E4 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		B30453B02C7A6712002A90E4 /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		B30453B22C7A67A2002A90E4 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		B30453B52C7A69EA002A90E4 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		B30453B72C7A8A2C002A90E4 /* MatchCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCardView.swift; sourceTree = "<group>"; };
+		B30453B92C7A8A4C002A90E4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B30453BC2C7A8AA1002A90E4 /* DateFormatter+ScheduleFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+ScheduleFormatter.swift"; sourceTree = "<group>"; };
+		B30453BE2C7A9298002A90E4 /* View+CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+CornerRadius.swift"; sourceTree = "<group>"; };
+		B30453C02C7A9329002A90E4 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		B30453C42C7A9843002A90E4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B30453C72C7A98E4002A90E4 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		B30453C92C7A9A3C002A90E4 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		B30453CB2C7A9E13002A90E4 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		B30453CD2C7A9E32002A90E4 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		B30453CF2C7AA98E002A90E4 /* League.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League.swift; sourceTree = "<group>"; };
+		B30453D12C7AAB9B002A90E4 /* Serie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serie.swift; sourceTree = "<group>"; };
+		B30550DF2C7A1547005487D2 /* csgoMatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = csgoMatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30550E22C7A1547005487D2 /* csgoMatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = csgoMatchApp.swift; sourceTree = "<group>"; };
+		B30550E62C7A1549005487D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B30550EF2C7A1549005487D2 /* csgoMatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = csgoMatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30550F32C7A1549005487D2 /* csgoMatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = csgoMatchTests.swift; sourceTree = "<group>"; };
+		B30550F92C7A1549005487D2 /* csgoMatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = csgoMatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30550FD2C7A1549005487D2 /* csgoMatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = csgoMatchUITests.swift; sourceTree = "<group>"; };
+		B30550FF2C7A1549005487D2 /* csgoMatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = csgoMatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B30550DC2C7A1547005487D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30453AC2C7A6480002A90E4 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30550EC2C7A1549005487D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30550F62C7A1549005487D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B30453AD2C7A66AE002A90E4 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				B30453AE2C7A66BE002A90E4 /* APIClient.swift */,
+				B30453B02C7A6712002A90E4 /* APIRouter.swift */,
+				B30453B22C7A67A2002A90E4 /* APIConstants.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		B30453B42C7A69D4002A90E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B30453B52C7A69EA002A90E4 /* Match.swift */,
+				B30453C92C7A9A3C002A90E4 /* Team.swift */,
+				B30453CF2C7AA98E002A90E4 /* League.swift */,
+				B30453D12C7AAB9B002A90E4 /* Serie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B30453BB2C7A8A8B002A90E4 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B30453BC2C7A8AA1002A90E4 /* DateFormatter+ScheduleFormatter.swift */,
+				B30453BE2C7A9298002A90E4 /* View+CornerRadius.swift */,
+				B30453C02C7A9329002A90E4 /* RoundedCorner.swift */,
+				B30453CB2C7A9E13002A90E4 /* ImageLoader.swift */,
+				B30453CD2C7A9E32002A90E4 /* AsyncImage.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		B30453C62C7A98D6002A90E4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B30453C72C7A98E4002A90E4 /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B30550D62C7A1547005487D2 = {
+			isa = PBXGroup;
+			children = (
+				B30550E12C7A1547005487D2 /* csgoMatch */,
+				B30550F22C7A1549005487D2 /* csgoMatchTests */,
+				B30550FC2C7A1549005487D2 /* csgoMatchUITests */,
+				B30550E02C7A1547005487D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B30550E02C7A1547005487D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B30550DF2C7A1547005487D2 /* csgoMatch.app */,
+				B30550EF2C7A1549005487D2 /* csgoMatchTests.xctest */,
+				B30550F92C7A1549005487D2 /* csgoMatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B30550E12C7A1547005487D2 /* csgoMatch */ = {
+			isa = PBXGroup;
+			children = (
+				B30453C62C7A98D6002A90E4 /* Fonts */,
+				B30453BB2C7A8A8B002A90E4 /* Util */,
+				B30453B42C7A69D4002A90E4 /* Models */,
+				B30453AD2C7A66AE002A90E4 /* network */,
+				B30550E22C7A1547005487D2 /* csgoMatchApp.swift */,
+				B30550E62C7A1549005487D2 /* Assets.xcassets */,
+				B30453A62C7A5F77002A90E4 /* MatchListView.swift */,
+				B30453A82C7A5FBE002A90E4 /* MatchListViewModel.swift */,
+				B30453B72C7A8A2C002A90E4 /* MatchCardView.swift */,
+				B30453B92C7A8A4C002A90E4 /* Constants.swift */,
+				B30453C42C7A9843002A90E4 /* Info.plist */,
+			);
+			path = csgoMatch;
+			sourceTree = "<group>";
+		};
+		B30550F22C7A1549005487D2 /* csgoMatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				B30550F32C7A1549005487D2 /* csgoMatchTests.swift */,
+			);
+			path = csgoMatchTests;
+			sourceTree = "<group>";
+		};
+		B30550FC2C7A1549005487D2 /* csgoMatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B30550FD2C7A1549005487D2 /* csgoMatchUITests.swift */,
+				B30550FF2C7A1549005487D2 /* csgoMatchUITestsLaunchTests.swift */,
+			);
+			path = csgoMatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B30550DE2C7A1547005487D2 /* csgoMatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B30551032C7A1549005487D2 /* Build configuration list for PBXNativeTarget "csgoMatch" */;
+			buildPhases = (
+				B30550DB2C7A1547005487D2 /* Sources */,
+				B30550DC2C7A1547005487D2 /* Frameworks */,
+				B30550DD2C7A1547005487D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = csgoMatch;
+			packageProductDependencies = (
+				B30453AB2C7A6480002A90E4 /* Alamofire */,
+			);
+			productName = csgoMatch;
+			productReference = B30550DF2C7A1547005487D2 /* csgoMatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B30550EE2C7A1549005487D2 /* csgoMatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B30551062C7A1549005487D2 /* Build configuration list for PBXNativeTarget "csgoMatchTests" */;
+			buildPhases = (
+				B30550EB2C7A1549005487D2 /* Sources */,
+				B30550EC2C7A1549005487D2 /* Frameworks */,
+				B30550ED2C7A1549005487D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B30550F12C7A1549005487D2 /* PBXTargetDependency */,
+			);
+			name = csgoMatchTests;
+			productName = csgoMatchTests;
+			productReference = B30550EF2C7A1549005487D2 /* csgoMatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B30550F82C7A1549005487D2 /* csgoMatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B30551092C7A1549005487D2 /* Build configuration list for PBXNativeTarget "csgoMatchUITests" */;
+			buildPhases = (
+				B30550F52C7A1549005487D2 /* Sources */,
+				B30550F62C7A1549005487D2 /* Frameworks */,
+				B30550F72C7A1549005487D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B30550FB2C7A1549005487D2 /* PBXTargetDependency */,
+			);
+			name = csgoMatchUITests;
+			productName = csgoMatchUITests;
+			productReference = B30550F92C7A1549005487D2 /* csgoMatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B30550D72C7A1547005487D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B30550DE2C7A1547005487D2 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					B30550EE2C7A1549005487D2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B30550DE2C7A1547005487D2;
+					};
+					B30550F82C7A1549005487D2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B30550DE2C7A1547005487D2;
+					};
+				};
+			};
+			buildConfigurationList = B30550DA2C7A1547005487D2 /* Build configuration list for PBXProject "csgoMatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B30550D62C7A1547005487D2;
+			packageReferences = (
+				B30453AA2C7A6480002A90E4 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = B30550E02C7A1547005487D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B30550DE2C7A1547005487D2 /* csgoMatch */,
+				B30550EE2C7A1549005487D2 /* csgoMatchTests */,
+				B30550F82C7A1549005487D2 /* csgoMatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B30550DD2C7A1547005487D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30453C82C7A98EB002A90E4 /* Roboto-Regular.ttf in Resources */,
+				B30550E72C7A1549005487D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30550ED2C7A1549005487D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30550F72C7A1549005487D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B30550DB2C7A1547005487D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30453CC2C7A9E13002A90E4 /* ImageLoader.swift in Sources */,
+				B30453C12C7A932A002A90E4 /* RoundedCorner.swift in Sources */,
+				B30453B82C7A8A2C002A90E4 /* MatchCardView.swift in Sources */,
+				B30453CA2C7A9A3C002A90E4 /* Team.swift in Sources */,
+				B30550E32C7A1547005487D2 /* csgoMatchApp.swift in Sources */,
+				B30453BD2C7A8AA1002A90E4 /* DateFormatter+ScheduleFormatter.swift in Sources */,
+				B30453BF2C7A9298002A90E4 /* View+CornerRadius.swift in Sources */,
+				B30453B12C7A6712002A90E4 /* APIRouter.swift in Sources */,
+				B30453B32C7A67A2002A90E4 /* APIConstants.swift in Sources */,
+				B30453A72C7A5F77002A90E4 /* MatchListView.swift in Sources */,
+				B30453D02C7AA98E002A90E4 /* League.swift in Sources */,
+				B30453CE2C7A9E32002A90E4 /* AsyncImage.swift in Sources */,
+				B30453A92C7A5FBE002A90E4 /* MatchListViewModel.swift in Sources */,
+				B30453AF2C7A66BE002A90E4 /* APIClient.swift in Sources */,
+				B30453B62C7A69EA002A90E4 /* Match.swift in Sources */,
+				B30453BA2C7A8A4C002A90E4 /* Constants.swift in Sources */,
+				B30453D22C7AAB9B002A90E4 /* Serie.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30550EB2C7A1549005487D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30550F42C7A1549005487D2 /* csgoMatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30550F52C7A1549005487D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30551002C7A1549005487D2 /* csgoMatchUITestsLaunchTests.swift in Sources */,
+				B30550FE2C7A1549005487D2 /* csgoMatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B30550F12C7A1549005487D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B30550DE2C7A1547005487D2 /* csgoMatch */;
+			targetProxy = B30550F02C7A1549005487D2 /* PBXContainerItemProxy */;
+		};
+		B30550FB2C7A1549005487D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B30550DE2C7A1547005487D2 /* csgoMatch */;
+			targetProxy = B30550FA2C7A1549005487D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B30551012C7A1549005487D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B30551022C7A1549005487D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B30551042C7A1549005487D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 4PD94YEKS3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = csgoMatch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EduardoLeite.csgoMatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B30551052C7A1549005487D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 4PD94YEKS3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = csgoMatch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EduardoLeite.csgoMatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B30551072C7A1549005487D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PD94YEKS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EduardoLeite.csgoMatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/csgoMatch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/csgoMatch";
+			};
+			name = Debug;
+		};
+		B30551082C7A1549005487D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PD94YEKS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EduardoLeite.csgoMatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/csgoMatch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/csgoMatch";
+			};
+			name = Release;
+		};
+		B305510A2C7A1549005487D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PD94YEKS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EduardoLeite.csgoMatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = csgoMatch;
+			};
+			name = Debug;
+		};
+		B305510B2C7A1549005487D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PD94YEKS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EduardoLeite.csgoMatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = csgoMatch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B30550DA2C7A1547005487D2 /* Build configuration list for PBXProject "csgoMatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30551012C7A1549005487D2 /* Debug */,
+				B30551022C7A1549005487D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B30551032C7A1549005487D2 /* Build configuration list for PBXNativeTarget "csgoMatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30551042C7A1549005487D2 /* Debug */,
+				B30551052C7A1549005487D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B30551062C7A1549005487D2 /* Build configuration list for PBXNativeTarget "csgoMatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30551072C7A1549005487D2 /* Debug */,
+				B30551082C7A1549005487D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B30551092C7A1549005487D2 /* Build configuration list for PBXNativeTarget "csgoMatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B305510A2C7A1549005487D2 /* Debug */,
+				B305510B2C7A1549005487D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B30453AA2C7A6480002A90E4 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B30453AB2C7A6480002A90E4 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B30453AA2C7A6480002A90E4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B30550D72C7A1547005487D2 /* Project object */;
+}
