@@ -58,7 +58,6 @@ class MatchInfoViewModel: ObservableObject {
             APIClient.getTeam(forTeamID: teamID) { result in
                 switch result {
                 case .success(let team):
-                    print(team)
                     continuation.resume(returning: team.first)
                 case .failure(let error):
                     print(error)
