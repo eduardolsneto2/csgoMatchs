@@ -12,6 +12,7 @@ enum APIRouter: URLRequestConvertible {
     
     case upcomingMatchs(page: Int, perPage: Int)
     case runningMatchs
+    case team(teamID: Int)
     
     // MARK: - HTTPMethod
     private var method: HTTPMethod {
@@ -19,6 +20,8 @@ enum APIRouter: URLRequestConvertible {
         case .upcomingMatchs:
             return .get
         case .runningMatchs:
+            return .get
+        case .team:
             return .get
         }
     }
@@ -30,6 +33,8 @@ enum APIRouter: URLRequestConvertible {
             return "/matches/upcoming"
         case .runningMatchs:
             return "/matches/running"
+        case .team:
+            return "/teams"
         }
     }
     
@@ -43,6 +48,10 @@ enum APIRouter: URLRequestConvertible {
             ]
         case .runningMatchs:
             return nil
+        case .team(let teamID):
+            return [
+                URLQueryItem(name: Server.APIParameterKey.teamID, value: teamID.description)
+            ]
         }
     }
     

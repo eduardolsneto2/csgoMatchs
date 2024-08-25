@@ -7,11 +7,13 @@
 
 import Foundation
 
-struct Opponent: Codable {
+struct Opponent: Codable, Hashable {
     let opponent: Team?
 }
 
-struct Team: Codable {
+struct Team: Codable, Hashable {
+    let id: Int?
     let name: String?
     let imageUrl: String?
+    let players: [Player]?
 }

@@ -30,4 +30,10 @@ class APIClient {
         jsonDecoder.dateDecodingStrategy = .formatted(.scheduleDateFormatter)
         performRequest(route: APIRouter.runningMatchs, decoder: jsonDecoder, completion: completion)
     }
+    
+    static func getTeam(forTeamID teamID: Int, completion:@escaping (Result<[Team], AFError>)->Void) {
+        let jsonDecoder = JSONDecoder()
+        jsonDecoder.keyDecodingStrategy = .convertFromSnakeCase
+        performRequest(route: APIRouter.team(teamID: teamID), decoder: jsonDecoder, completion: completion)
+    }
 }

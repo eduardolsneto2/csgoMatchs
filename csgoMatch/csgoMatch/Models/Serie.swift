@@ -7,6 +7,6 @@
 
 import Foundation
 
-struct Serie: Codable {
+struct Serie: Codable, Hashable {
     let name: String?
 }

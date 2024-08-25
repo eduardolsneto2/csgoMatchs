@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct Constants {
+    static let vsText = "vs"
+    static let robotoFont = "Roboto-Regular"
+    static let arrowLeft = "arrow.left"
+    static let tbd = "TBD"
+    
     struct MatchListConstants {
         static let backgroundColor = Color("backgroundColor")
         static let navigationTitle = "Partidas"
@@ -18,5 +23,9 @@ struct Constants {
         static let liveDateColor = Color("dateColor")
         static let unKnownTeamColor = Color("teamBackground")
         static let liveText = "AGORA"
+    }
+    
+    struct MatchInfoConstants {
+        static let playerNameColor = Color("playerNameColor")
     }
 }

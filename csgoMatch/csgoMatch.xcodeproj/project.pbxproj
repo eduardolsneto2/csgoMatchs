@@ -25,6 +25,15 @@
 		B30453CE2C7A9E32002A90E4 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453CD2C7A9E32002A90E4 /* AsyncImage.swift */; };
 		B30453D02C7AA98E002A90E4 /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453CF2C7AA98E002A90E4 /* League.swift */; };
 		B30453D22C7AAB9B002A90E4 /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453D12C7AAB9B002A90E4 /* Serie.swift */; };
+		B30453D42C7B4F5C002A90E4 /* MatchInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453D32C7B4F5C002A90E4 /* MatchInfoView.swift */; };
+		B30453D62C7B9AEA002A90E4 /* MatchInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453D52C7B9AEA002A90E4 /* MatchInfoViewModel.swift */; };
+		B30453D82C7B9BB9002A90E4 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453D72C7B9BB9002A90E4 /* Player.swift */; };
+		B30453DC2C7BF4A6002A90E4 /* LeftPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453DB2C7BF4A6002A90E4 /* LeftPlayerView.swift */; };
+		B30453DE2C7BF4CA002A90E4 /* RightPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453DD2C7BF4CA002A90E4 /* RightPlayerView.swift */; };
+		B30453E02C7BF4F5002A90E4 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453DF2C7BF4F5002A90E4 /* TeamView.swift */; };
+		B30453E22C7BF50D002A90E4 /* CustomBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453E12C7BF50D002A90E4 /* CustomBackButton.swift */; };
+		B30453E42C7BF52C002A90E4 /* PlayerNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453E32C7BF52C002A90E4 /* PlayerNameView.swift */; };
+		B30453E62C7BF54C002A90E4 /* PlayersLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453E52C7BF54C002A90E4 /* PlayersLineView.swift */; };
 		B30550E32C7A1547005487D2 /* csgoMatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30550E22C7A1547005487D2 /* csgoMatchApp.swift */; };
 		B30550E72C7A1549005487D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30550E62C7A1549005487D2 /* Assets.xcassets */; };
 		B30550F42C7A1549005487D2 /* csgoMatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30550F32C7A1549005487D2 /* csgoMatchTests.swift */; };
@@ -68,6 +77,15 @@
 		B30453CD2C7A9E32002A90E4 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		B30453CF2C7AA98E002A90E4 /* League.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League.swift; sourceTree = "<group>"; };
 		B30453D12C7AAB9B002A90E4 /* Serie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serie.swift; sourceTree = "<group>"; };
+		B30453D32C7B4F5C002A90E4 /* MatchInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchInfoView.swift; sourceTree = "<group>"; };
+		B30453D52C7B9AEA002A90E4 /* MatchInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchInfoViewModel.swift; sourceTree = "<group>"; };
+		B30453D72C7B9BB9002A90E4 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		B30453DB2C7BF4A6002A90E4 /* LeftPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftPlayerView.swift; sourceTree = "<group>"; };
+		B30453DD2C7BF4CA002A90E4 /* RightPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightPlayerView.swift; sourceTree = "<group>"; };
+		B30453DF2C7BF4F5002A90E4 /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		B30453E12C7BF50D002A90E4 /* CustomBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackButton.swift; sourceTree = "<group>"; };
+		B30453E32C7BF52C002A90E4 /* PlayerNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerNameView.swift; sourceTree = "<group>"; };
+		B30453E52C7BF54C002A90E4 /* PlayersLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersLineView.swift; sourceTree = "<group>"; };
 		B30550DF2C7A1547005487D2 /* csgoMatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = csgoMatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B30550E22C7A1547005487D2 /* csgoMatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = csgoMatchApp.swift; sourceTree = "<group>"; };
 		B30550E62C7A1549005487D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -121,6 +139,7 @@
 				B30453C92C7A9A3C002A90E4 /* Team.swift */,
 				B30453CF2C7AA98E002A90E4 /* League.swift */,
 				B30453D12C7AAB9B002A90E4 /* Serie.swift */,
+				B30453D72C7B9BB9002A90E4 /* Player.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -133,6 +152,7 @@
 				B30453C02C7A9329002A90E4 /* RoundedCorner.swift */,
 				B30453CB2C7A9E13002A90E4 /* ImageLoader.swift */,
 				B30453CD2C7A9E32002A90E4 /* AsyncImage.swift */,
+				B30453E12C7BF50D002A90E4 /* CustomBackButton.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -143,6 +163,38 @@
 				B30453C72C7A98E4002A90E4 /* Roboto-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B30453D92C7BAC0C002A90E4 /* MatchListView */ = {
+			isa = PBXGroup;
+			children = (
+				B30453A62C7A5F77002A90E4 /* MatchListView.swift */,
+				B30453A82C7A5FBE002A90E4 /* MatchListViewModel.swift */,
+				B30453B72C7A8A2C002A90E4 /* MatchCardView.swift */,
+			);
+			path = MatchListView;
+			sourceTree = "<group>";
+		};
+		B30453DA2C7BAC21002A90E4 /* MatchInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				B30453E72C7BF561002A90E4 /* Views */,
+				B30453D52C7B9AEA002A90E4 /* MatchInfoViewModel.swift */,
+			);
+			path = MatchInfoView;
+			sourceTree = "<group>";
+		};
+		B30453E72C7BF561002A90E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B30453D32C7B4F5C002A90E4 /* MatchInfoView.swift */,
+				B30453DB2C7BF4A6002A90E4 /* LeftPlayerView.swift */,
+				B30453DD2C7BF4CA002A90E4 /* RightPlayerView.swift */,
+				B30453DF2C7BF4F5002A90E4 /* TeamView.swift */,
+				B30453E32C7BF52C002A90E4 /* PlayerNameView.swift */,
+				B30453E52C7BF54C002A90E4 /* PlayersLineView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		B30550D62C7A1547005487D2 = {
@@ -168,15 +220,14 @@
 		B30550E12C7A1547005487D2 /* csgoMatch */ = {
 			isa = PBXGroup;
 			children = (
+				B30453DA2C7BAC21002A90E4 /* MatchInfoView */,
+				B30453D92C7BAC0C002A90E4 /* MatchListView */,
 				B30453C62C7A98D6002A90E4 /* Fonts */,
 				B30453BB2C7A8A8B002A90E4 /* Util */,
 				B30453B42C7A69D4002A90E4 /* Models */,
 				B30453AD2C7A66AE002A90E4 /* network */,
 				B30550E22C7A1547005487D2 /* csgoMatchApp.swift */,
 				B30550E62C7A1549005487D2 /* Assets.xcassets */,
-				B30453A62C7A5F77002A90E4 /* MatchListView.swift */,
-				B30453A82C7A5FBE002A90E4 /* MatchListViewModel.swift */,
-				B30453B72C7A8A2C002A90E4 /* MatchCardView.swift */,
 				B30453B92C7A8A4C002A90E4 /* Constants.swift */,
 				B30453C42C7A9843002A90E4 /* Info.plist */,
 			);
@@ -336,14 +387,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30453DE2C7BF4CA002A90E4 /* RightPlayerView.swift in Sources */,
+				B30453D42C7B4F5C002A90E4 /* MatchInfoView.swift in Sources */,
 				B30453CC2C7A9E13002A90E4 /* ImageLoader.swift in Sources */,
 				B30453C12C7A932A002A90E4 /* RoundedCorner.swift in Sources */,
 				B30453B82C7A8A2C002A90E4 /* MatchCardView.swift in Sources */,
 				B30453CA2C7A9A3C002A90E4 /* Team.swift in Sources */,
 				B30550E32C7A1547005487D2 /* csgoMatchApp.swift in Sources */,
 				B30453BD2C7A8AA1002A90E4 /* DateFormatter+ScheduleFormatter.swift in Sources */,
+				B30453D62C7B9AEA002A90E4 /* MatchInfoViewModel.swift in Sources */,
+				B30453E62C7BF54C002A90E4 /* PlayersLineView.swift in Sources */,
+				B30453E22C7BF50D002A90E4 /* CustomBackButton.swift in Sources */,
+				B30453D82C7B9BB9002A90E4 /* Player.swift in Sources */,
+				B30453DC2C7BF4A6002A90E4 /* LeftPlayerView.swift in Sources */,
 				B30453BF2C7A9298002A90E4 /* View+CornerRadius.swift in Sources */,
 				B30453B12C7A6712002A90E4 /* APIRouter.swift in Sources */,
+				B30453E02C7BF4F5002A90E4 /* TeamView.swift in Sources */,
 				B30453B32C7A67A2002A90E4 /* APIConstants.swift in Sources */,
 				B30453A72C7A5F77002A90E4 /* MatchListView.swift in Sources */,
 				B30453D02C7AA98E002A90E4 /* League.swift in Sources */,
@@ -351,6 +410,7 @@
 				B30453A92C7A5FBE002A90E4 /* MatchListViewModel.swift in Sources */,
 				B30453AF2C7A66BE002A90E4 /* APIClient.swift in Sources */,
 				B30453B62C7A69EA002A90E4 /* Match.swift in Sources */,
+				B30453E42C7BF52C002A90E4 /* PlayerNameView.swift in Sources */,
 				B30453BA2C7A8A4C002A90E4 /* Constants.swift in Sources */,
 				B30453D22C7AAB9B002A90E4 /* Serie.swift in Sources */,
 			);

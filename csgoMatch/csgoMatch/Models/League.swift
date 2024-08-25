@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct League: Codable {
+struct League: Codable, Hashable {
     let imageUrl: String?
     let name: String?
 }

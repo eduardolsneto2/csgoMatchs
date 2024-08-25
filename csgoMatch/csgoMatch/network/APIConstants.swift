@@ -18,6 +18,7 @@ struct Server {
     struct APIParameterKey {
         static let page = "page"
         static let perPage = "per_page"
+        static let teamID = "filter[id]"
     }
 }
 
