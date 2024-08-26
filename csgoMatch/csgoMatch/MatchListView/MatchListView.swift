@@ -42,6 +42,9 @@ struct MatchListView: View {
                     .padding(0)
                     .listStyle(.plain)
                     .scrollContentBackground(.hidden)
+                    .refreshable {
+                        self.viewModel.refreshData()
+                    }
                 } else {
                     VStack(alignment: .center) {
                         Spacer()

@@ -12,6 +12,7 @@ class MatchListViewModel: ObservableObject {
     
     var upcommingMatchsPage = 1
     var endPagination = false
+    var runningMatchs = [Match]()
     @Published var allMatchs = [Match]()
     
     func loadRunningMatchs() {
@@ -21,6 +22,13 @@ class MatchListViewModel: ObservableObject {
             } catch {
                 print(error.localizedDescription)
             }
+        }
+    }
+    
+    func refreshData() {
+        DispatchQueue.main.async {
+            self.upcommingMatchsPage = 1
+            self.loadRunningMatchs()
         }
     }
     
@@ -46,8 +54,10 @@ class MatchListViewModel: ObservableObject {
                 switch result {
                 case .success(let matchs):
                     DispatchQueue.main.async {
-                        self.allMatchs.append(contentsOf: matchs)
-                        if matchs.isEmpty {
+                        let sameMatchs = self.runningMatchs == matchs
+                        self.runningMatchs = matchs
+                        self.allMatchs = matchs
+                        if sameMatchs {
                             Task {
                                 try? await self.getUpcommingMatchs()
                             }
