@@ -11,11 +11,6 @@ struct MatchListView: View {
     
     @ObservedObject var viewModel = MatchListViewModel()
     
-    init() {
-        UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.white]
-        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.white]
-    }
-    
     var body: some View {
         NavigationStack {
             VStack {
@@ -61,11 +56,17 @@ struct MatchListView: View {
             .background(Constants.MatchListConstants.backgroundColor)
             .navigationTitle(Constants.MatchListConstants.navigationTitle)
             .navigationBarTitleDisplayMode(.large)
+            .toolbarColorScheme(.dark, for: .navigationBar)
+            .toolbarBackground(
+                Constants.MatchListConstants.backgroundColor,
+                for: .navigationBar
+            )
+            .toolbarBackground(.visible, for: .navigationBar)
             .navigationDestination(for: Match.self) { match in
                 MatchInfoView(match: match)
             }
             .onAppear {
-                self.viewModel.loadRunningMatchs()
+                self.viewModel.setupMatchs()
             }
         }
         .tint(.white)

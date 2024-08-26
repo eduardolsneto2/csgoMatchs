@@ -15,6 +15,12 @@ class MatchListViewModel: ObservableObject {
     var runningMatchs = [Match]()
     @Published var allMatchs = [Match]()
     
+    
+    func setupMatchs() {
+        if allMatchs.isEmpty {
+            self.loadRunningMatchs()
+        }
+    }
     func loadRunningMatchs() {
         Task {
             do {

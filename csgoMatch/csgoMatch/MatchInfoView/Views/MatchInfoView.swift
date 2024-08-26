@@ -62,6 +62,12 @@ struct MatchInfoView: View {
         .background(Constants.MatchListConstants.backgroundColor)
         .navigationBarTitleDisplayMode(.inline)
         .navigationTitle(match?.getLeagueName() ?? "")
+        .toolbarColorScheme(.dark, for: .navigationBar)
+        .toolbarBackground(
+            Constants.MatchListConstants.backgroundColor,
+            for: .navigationBar
+        )
+        .toolbarBackground(.visible, for: .navigationBar)
         .onAppear {
             self.viewModel.match = match
             self.viewModel.loadTeams()
