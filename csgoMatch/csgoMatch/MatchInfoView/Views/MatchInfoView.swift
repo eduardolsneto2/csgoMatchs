@@ -69,8 +69,10 @@ struct MatchInfoView: View {
         )
         .toolbarBackground(.visible, for: .navigationBar)
         .onAppear {
-            self.viewModel.match = match
-            self.viewModel.loadTeams()
+            Task {
+                self.viewModel.match = match
+                await self.viewModel.loadTeams()
+            }
         }
     }
 }

@@ -36,9 +36,27 @@
 		B30453E62C7BF54C002A90E4 /* PlayersLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453E52C7BF54C002A90E4 /* PlayersLineView.swift */; };
 		B30550E32C7A1547005487D2 /* csgoMatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30550E22C7A1547005487D2 /* csgoMatchApp.swift */; };
 		B30550E72C7A1549005487D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30550E62C7A1549005487D2 /* Assets.xcassets */; };
-		B30550F42C7A1549005487D2 /* csgoMatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30550F32C7A1549005487D2 /* csgoMatchTests.swift */; };
 		B30550FE2C7A1549005487D2 /* csgoMatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30550FD2C7A1549005487D2 /* csgoMatchUITests.swift */; };
 		B30551002C7A1549005487D2 /* csgoMatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30550FF2C7A1549005487D2 /* csgoMatchUITestsLaunchTests.swift */; };
+		B3FE81522C7D1AE6008C4E6F /* MatchInfoViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FE81512C7D1AE6008C4E6F /* MatchInfoViewModelTests.swift */; };
+		B3FE81542C7D1B1E008C4E6F /* MatchListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FE81532C7D1B1E008C4E6F /* MatchListViewModelTests.swift */; };
+		B3FE81562C7D1B46008C4E6F /* MatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FE81552C7D1B46008C4E6F /* MatchTests.swift */; };
+		B3FE81582C7D1B59008C4E6F /* PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FE81572C7D1B59008C4E6F /* PlayerTests.swift */; };
+		B3FE815B2C7D1B80008C4E6F /* MatchInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453D52C7B9AEA002A90E4 /* MatchInfoViewModel.swift */; };
+		B3FE815C2C7D1B84008C4E6F /* MatchListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453A82C7A5FBE002A90E4 /* MatchListViewModel.swift */; };
+		B3FE81602C7D1B8C008C4E6F /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453C92C7A9A3C002A90E4 /* Team.swift */; };
+		B3FE81612C7D1B8C008C4E6F /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453D12C7AAB9B002A90E4 /* Serie.swift */; };
+		B3FE81622C7D1B8C008C4E6F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453D72C7B9BB9002A90E4 /* Player.swift */; };
+		B3FE81632C7D1B8C008C4E6F /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453B52C7A69EA002A90E4 /* Match.swift */; };
+		B3FE81642C7D1B8C008C4E6F /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453CF2C7AA98E002A90E4 /* League.swift */; };
+		B3FE81652C7D1DAE008C4E6F /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453B02C7A6712002A90E4 /* APIRouter.swift */; };
+		B3FE81662C7D1DAE008C4E6F /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453AE2C7A66BE002A90E4 /* APIClient.swift */; };
+		B3FE81672C7D1DAE008C4E6F /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453B22C7A67A2002A90E4 /* APIConstants.swift */; };
+		B3FE81682C7D1DCA008C4E6F /* DateFormatter+ScheduleFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30453BC2C7A8AA1002A90E4 /* DateFormatter+ScheduleFormatter.swift */; };
+		B3FE816F2C7D2054008C4E6F /* APIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FE816E2C7D2054008C4E6F /* APIClientProtocol.swift */; };
+		B3FE81712C7D250B008C4E6F /* NetworkMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FE81702C7D250B008C4E6F /* NetworkMock.swift */; };
+		B3FE81722C7D2523008C4E6F /* APIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FE816E2C7D2054008C4E6F /* APIClientProtocol.swift */; };
+		B3FE817D2C7D34EC008C4E6F /* MockConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FE817C2C7D34EC008C4E6F /* MockConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,10 +108,16 @@
 		B30550E22C7A1547005487D2 /* csgoMatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = csgoMatchApp.swift; sourceTree = "<group>"; };
 		B30550E62C7A1549005487D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B30550EF2C7A1549005487D2 /* csgoMatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = csgoMatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B30550F32C7A1549005487D2 /* csgoMatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = csgoMatchTests.swift; sourceTree = "<group>"; };
 		B30550F92C7A1549005487D2 /* csgoMatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = csgoMatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B30550FD2C7A1549005487D2 /* csgoMatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = csgoMatchUITests.swift; sourceTree = "<group>"; };
 		B30550FF2C7A1549005487D2 /* csgoMatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = csgoMatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3FE81512C7D1AE6008C4E6F /* MatchInfoViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchInfoViewModelTests.swift; sourceTree = "<group>"; };
+		B3FE81532C7D1B1E008C4E6F /* MatchListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchListViewModelTests.swift; sourceTree = "<group>"; };
+		B3FE81552C7D1B46008C4E6F /* MatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchTests.swift; sourceTree = "<group>"; };
+		B3FE81572C7D1B59008C4E6F /* PlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTests.swift; sourceTree = "<group>"; };
+		B3FE816E2C7D2054008C4E6F /* APIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientProtocol.swift; sourceTree = "<group>"; };
+		B3FE81702C7D250B008C4E6F /* NetworkMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMock.swift; sourceTree = "<group>"; };
+		B3FE817C2C7D34EC008C4E6F /* MockConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +152,7 @@
 				B30453AE2C7A66BE002A90E4 /* APIClient.swift */,
 				B30453B02C7A6712002A90E4 /* APIRouter.swift */,
 				B30453B22C7A67A2002A90E4 /* APIConstants.swift */,
+				B3FE816E2C7D2054008C4E6F /* APIClientProtocol.swift */,
 			);
 			path = network;
 			sourceTree = "<group>";
@@ -237,7 +262,12 @@
 		B30550F22C7A1549005487D2 /* csgoMatchTests */ = {
 			isa = PBXGroup;
 			children = (
-				B30550F32C7A1549005487D2 /* csgoMatchTests.swift */,
+				B3FE81512C7D1AE6008C4E6F /* MatchInfoViewModelTests.swift */,
+				B3FE81532C7D1B1E008C4E6F /* MatchListViewModelTests.swift */,
+				B3FE81552C7D1B46008C4E6F /* MatchTests.swift */,
+				B3FE81572C7D1B59008C4E6F /* PlayerTests.swift */,
+				B3FE81702C7D250B008C4E6F /* NetworkMock.swift */,
+				B3FE817C2C7D34EC008C4E6F /* MockConstants.swift */,
 			);
 			path = csgoMatchTests;
 			sourceTree = "<group>";
@@ -389,6 +419,7 @@
 			files = (
 				B30453DE2C7BF4CA002A90E4 /* RightPlayerView.swift in Sources */,
 				B30453D42C7B4F5C002A90E4 /* MatchInfoView.swift in Sources */,
+				B3FE816F2C7D2054008C4E6F /* APIClientProtocol.swift in Sources */,
 				B30453CC2C7A9E13002A90E4 /* ImageLoader.swift in Sources */,
 				B30453C12C7A932A002A90E4 /* RoundedCorner.swift in Sources */,
 				B30453B82C7A8A2C002A90E4 /* MatchCardView.swift in Sources */,
@@ -420,7 +451,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B30550F42C7A1549005487D2 /* csgoMatchTests.swift in Sources */,
+				B3FE81712C7D250B008C4E6F /* NetworkMock.swift in Sources */,
+				B3FE815C2C7D1B84008C4E6F /* MatchListViewModel.swift in Sources */,
+				B3FE81652C7D1DAE008C4E6F /* APIRouter.swift in Sources */,
+				B3FE81682C7D1DCA008C4E6F /* DateFormatter+ScheduleFormatter.swift in Sources */,
+				B3FE81582C7D1B59008C4E6F /* PlayerTests.swift in Sources */,
+				B3FE81602C7D1B8C008C4E6F /* Team.swift in Sources */,
+				B3FE81632C7D1B8C008C4E6F /* Match.swift in Sources */,
+				B3FE81542C7D1B1E008C4E6F /* MatchListViewModelTests.swift in Sources */,
+				B3FE81562C7D1B46008C4E6F /* MatchTests.swift in Sources */,
+				B3FE81522C7D1AE6008C4E6F /* MatchInfoViewModelTests.swift in Sources */,
+				B3FE81672C7D1DAE008C4E6F /* APIConstants.swift in Sources */,
+				B3FE81612C7D1B8C008C4E6F /* Serie.swift in Sources */,
+				B3FE81662C7D1DAE008C4E6F /* APIClient.swift in Sources */,
+				B3FE81722C7D2523008C4E6F /* APIClientProtocol.swift in Sources */,
+				B3FE81622C7D1B8C008C4E6F /* Player.swift in Sources */,
+				B3FE817D2C7D34EC008C4E6F /* MockConstants.swift in Sources */,
+				B3FE81642C7D1B8C008C4E6F /* League.swift in Sources */,
+				B3FE815B2C7D1B80008C4E6F /* MatchInfoViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

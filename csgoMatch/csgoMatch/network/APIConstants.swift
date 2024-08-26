@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Server {
+struct ServerConstants {
     static let TOKEN = "k5HL-XXs98TxDDnNKLufaQEtcEC_1Pv3ECeSuF6cLVfO8cqCWXU"
     static let defaultPageSize = 10
     

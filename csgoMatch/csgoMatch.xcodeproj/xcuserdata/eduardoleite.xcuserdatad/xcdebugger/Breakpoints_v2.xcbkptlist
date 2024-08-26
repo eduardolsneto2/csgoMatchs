@@ -7,17 +7,359 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F8810ED2-7BDD-4B2B-B06F-B20BDD7FC290"
+            uuid = "CAD215FC-87BF-4936-8D66-9427A2FD47E0"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "csgoMatch/MatchListView/MatchListViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "loadPage(match:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE087710-7AD7-4A8D-92BF-FDBE8AD95DD5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "csgoMatch/MatchListView/MatchListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "loadRunningMatchs()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EE087710-7AD7-4A8D-92BF-FDBE8AD95DD5 - 7c6056b5d1fd3999"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () async -&gt; () in csgoMatch.MatchListViewModel.loadRunningMatchs() -&gt; ()"
+                  moduleName = "csgoMatch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardoleite/Documents/projects/csgoMatchs/csgoMatch/csgoMatch/MatchListView/MatchListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "EE087710-7AD7-4A8D-92BF-FDBE8AD95DD5 - 4013aac8c7e89676"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for closure #1 @Sendable () async -&gt; () in csgoMatch.MatchListViewModel.loadRunningMatchs() -&gt; ()"
+                  moduleName = "csgoMatch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardoleite/Documents/projects/csgoMatchs/csgoMatch/csgoMatch/MatchListView/MatchListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "EE087710-7AD7-4A8D-92BF-FDBE8AD95DD5 - 5d9be05657d4956"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for closure #1 @Sendable () async -&gt; () in csgoMatch.MatchListViewModel.loadRunningMatchs() -&gt; ()"
+                  moduleName = "csgoMatch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardoleite/Documents/projects/csgoMatchs/csgoMatch/csgoMatch/MatchListView/MatchListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "EE087710-7AD7-4A8D-92BF-FDBE8AD95DD5 - 4e77c1dd6cd29cfa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () async -&gt; () in csgoMatchTests.MatchListViewModel.loadRunningMatchs() -&gt; ()"
+                  moduleName = "csgoMatchTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardoleite/Documents/projects/csgoMatchs/csgoMatch/csgoMatch/MatchListView/MatchListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "EE087710-7AD7-4A8D-92BF-FDBE8AD95DD5 - a86720caf3e1ce17"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for closure #1 @Sendable () async -&gt; () in csgoMatchTests.MatchListViewModel.loadRunningMatchs() -&gt; ()"
+                  moduleName = "csgoMatchTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardoleite/Documents/projects/csgoMatchs/csgoMatch/csgoMatch/MatchListView/MatchListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "EE087710-7AD7-4A8D-92BF-FDBE8AD95DD5 - b00ae9500af65d1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for closure #1 @Sendable () async -&gt; () in csgoMatchTests.MatchListViewModel.loadRunningMatchs() -&gt; ()"
+                  moduleName = "csgoMatchTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardoleite/Documents/projects/csgoMatchs/csgoMatch/csgoMatch/MatchListView/MatchListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "173C322B-DC30-465E-832B-3BC51EADFBDA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "csgoMatch/MatchListView/MatchListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
             landmarkName = "getCurrentMatchs()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "173C322B-DC30-465E-832B-3BC51EADFBDA - 4257f6a93c5ff643"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor @Sendable () -&gt; () in csgoMatch.MatchListViewModel.getCurrentMatchs() async throws -&gt; ()"
+                  moduleName = "csgoMatch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardoleite/Documents/projects/csgoMatchs/csgoMatch/csgoMatch/MatchListView/MatchListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "173C322B-DC30-465E-832B-3BC51EADFBDA - 34f4c6dbe4d4a3f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor @Sendable () -&gt; () in csgoMatchTests.MatchListViewModel.getCurrentMatchs() async throws -&gt; ()"
+                  moduleName = "csgoMatchTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardoleite/Documents/projects/csgoMatchs/csgoMatch/csgoMatch/MatchListView/MatchListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "149F292E-7DC2-40B4-AEBD-9AE5F2972657"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "csgoMatch/MatchInfoView/MatchInfoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "loadTeams()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "149F292E-7DC2-40B4-AEBD-9AE5F2972657 - c3a310ab7482d4e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for csgoMatch.MatchInfoViewModel.loadTeams() async -&gt; ()"
+                  moduleName = "csgoMatch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardoleite/Documents/projects/csgoMatchs/csgoMatch/csgoMatch/MatchInfoView/MatchInfoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "149F292E-7DC2-40B4-AEBD-9AE5F2972657 - e1d84d8574d51b12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for csgoMatchTests.MatchInfoViewModel.loadTeams() async -&gt; ()"
+                  moduleName = "csgoMatchTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardoleite/Documents/projects/csgoMatchs/csgoMatch/csgoMatch/MatchInfoView/MatchInfoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "149F292E-7DC2-40B4-AEBD-9AE5F2972657 - c3a310ab7482d4e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for csgoMatch.MatchInfoViewModel.loadTeams() async -&gt; ()"
+                  moduleName = "csgoMatch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardoleite/Documents/projects/csgoMatchs/csgoMatch/csgoMatch/MatchInfoView/MatchInfoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "149F292E-7DC2-40B4-AEBD-9AE5F2972657 - e1d84d8574d51b12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for csgoMatchTests.MatchInfoViewModel.loadTeams() async -&gt; ()"
+                  moduleName = "csgoMatchTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardoleite/Documents/projects/csgoMatchs/csgoMatch/csgoMatch/MatchInfoView/MatchInfoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E852189-ADF7-4EAB-AE53-F0B5FA6697C1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "csgoMatch/MatchInfoView/MatchInfoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "loadTeams()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5E852189-ADF7-4EAB-AE53-F0B5FA6697C1 - 719802ff95343d1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for csgoMatch.MatchInfoViewModel.loadTeams() async -&gt; ()"
+                  moduleName = "csgoMatch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardoleite/Documents/projects/csgoMatchs/csgoMatch/csgoMatch/MatchInfoView/MatchInfoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "5E852189-ADF7-4EAB-AE53-F0B5FA6697C1 - 1b1625cb8df2aeaf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor @Sendable () -&gt; () in csgoMatch.MatchInfoViewModel.loadTeams() async -&gt; ()"
+                  moduleName = "csgoMatch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardoleite/Documents/projects/csgoMatchs/csgoMatch/csgoMatch/MatchInfoView/MatchInfoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "5E852189-ADF7-4EAB-AE53-F0B5FA6697C1 - f61252d2993d72fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for csgoMatchTests.MatchInfoViewModel.loadTeams() async -&gt; ()"
+                  moduleName = "csgoMatchTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardoleite/Documents/projects/csgoMatchs/csgoMatch/csgoMatch/MatchInfoView/MatchInfoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "5E852189-ADF7-4EAB-AE53-F0B5FA6697C1 - e69dcbe8990d132f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor @Sendable () -&gt; () in csgoMatchTests.MatchInfoViewModel.loadTeams() async -&gt; ()"
+                  moduleName = "csgoMatchTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardoleite/Documents/projects/csgoMatchs/csgoMatch/csgoMatch/MatchInfoView/MatchInfoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "5E852189-ADF7-4EAB-AE53-F0B5FA6697C1 - 719802ff95343d1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for csgoMatch.MatchInfoViewModel.loadTeams() async -&gt; ()"
+                  moduleName = "csgoMatch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardoleite/Documents/projects/csgoMatchs/csgoMatch/csgoMatch/MatchInfoView/MatchInfoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "5E852189-ADF7-4EAB-AE53-F0B5FA6697C1 - f61252d2993d72fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for csgoMatchTests.MatchInfoViewModel.loadTeams() async -&gt; ()"
+                  moduleName = "csgoMatchTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardoleite/Documents/projects/csgoMatchs/csgoMatch/csgoMatch/MatchInfoView/MatchInfoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

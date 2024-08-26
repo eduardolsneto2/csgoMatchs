@@ -10,11 +10,15 @@ import Foundation
 
 class MatchListViewModel: ObservableObject {
     
+    var network: APIClientProtocol
     var upcommingMatchsPage = 1
     var endPagination = false
     var runningMatchs = [Match]()
     @Published var allMatchs = [Match]()
     
+    init(network: APIClientProtocol = APIClient.shared) {
+        self.network = network
+    }
     
     func setupMatchs() {
         if allMatchs.isEmpty {
@@ -55,44 +59,26 @@ class MatchListViewModel: ObservableObject {
     }
     
     func getCurrentMatchs() async throws {
-        return try await withCheckedThrowingContinuation { continuation in
-            APIClient.getRunningMatchs { result in
-                switch result {
-                case .success(let matchs):
-                    DispatchQueue.main.async {
-                        let sameMatchs = self.runningMatchs == matchs
-                        self.runningMatchs = matchs
-                        self.allMatchs = matchs
-                        if sameMatchs {
-                            Task {
-                                try? await self.getUpcommingMatchs()
-                            }
-                        }
-                        continuation.resume()
-                    }
-                case .failure(let error):
-                    continuation.resume(throwing: error)
+        let matchs = try await network.getCurrentMatchs()
+        DispatchQueue.main.sync {
+            let sameMatchs = self.runningMatchs == matchs
+            self.runningMatchs = matchs
+            self.allMatchs = matchs
+            if sameMatchs {
+                Task {
+                    try? await self.getUpcommingMatchs()
                 }
             }
         }
     }
     
     func getUpcommingMatchs() async throws {
-        return try await withCheckedThrowingContinuation { continuation in
-            APIClient.getUpcomingMatchs(page: upcommingMatchsPage) { result in
-                switch result {
-                case .success(let matchs):
-                    DispatchQueue.main.async {
-                        if matchs.isEmpty {
-                            self.endPagination = false
-                        }
-                        self.allMatchs.append(contentsOf: matchs)
-                        continuation.resume()
-                    }
-                case .failure(let error):
-                    continuation.resume(throwing: error)
-                }
+        let matchs = try await network.getUpcommingMatchs(upcommingMatchsPage: upcommingMatchsPage)
+        DispatchQueue.main.sync {
+            if matchs.isEmpty {
+                self.endPagination = false
             }
+            self.allMatchs.append(contentsOf: matchs)
         }
     }
 }

@@ -43,21 +43,21 @@ enum APIRouter: URLRequestConvertible {
         switch self {
         case .upcomingMatchs(let page, let perPage):
             return [
-                URLQueryItem(name: Server.APIParameterKey.page, value: page.description),
-                URLQueryItem(name: Server.APIParameterKey.perPage, value: perPage.description)
+                URLQueryItem(name: ServerConstants.APIParameterKey.page, value: page.description),
+                URLQueryItem(name: ServerConstants.APIParameterKey.perPage, value: perPage.description)
             ]
         case .runningMatchs:
             return nil
         case .team(let teamID):
             return [
-                URLQueryItem(name: Server.APIParameterKey.teamID, value: teamID.description)
+                URLQueryItem(name: ServerConstants.APIParameterKey.teamID, value: teamID.description)
             ]
         }
     }
     
     // MARK: - URLRequestConvertible
     func asURLRequest() throws -> URLRequest {
-        let url = try Server.ProductionServer.baseURL.asURL()
+        let url = try ServerConstants.ProductionServer.baseURL.asURL()
         
         var urlRequest = URLRequest(url: url.appendingPathComponent(path))
         
@@ -65,7 +65,7 @@ enum APIRouter: URLRequestConvertible {
         urlRequest.httpMethod = method.rawValue
         
         // Authentication Headers
-        urlRequest.setValue(Server.TOKEN, forHTTPHeaderField: HTTPHeaderField.authentication.rawValue)
+        urlRequest.setValue(ServerConstants.TOKEN, forHTTPHeaderField: HTTPHeaderField.authentication.rawValue)
         
         // Parameters
         if let parameters {
